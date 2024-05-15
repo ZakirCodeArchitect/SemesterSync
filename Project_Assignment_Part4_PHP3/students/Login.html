@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="../global.css" />
+  <link rel="stylesheet" href="../index.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Righteous:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto Condensed:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ropa Sans:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rosario:wght@300;400&display=swap" />
+
+  <title>Log in</title>
+</head>
+<body>
+  <!-- Wrap your form inside a <form> tag -->
+    <form action="data.php" method="post" class="log-in">
+
+    <section class="background-parent">
+      <div class="background"></div>
+      <div class="cta-form">
+        <div class="logo-wrapper">
+          <div class="logo" id="logoText">SemetserSync</div>
+        </div>
+        <div class="button-primary-parent">
+          <!-- Link for Google login -->
+          <!-- <div class="button-primary" id="buttonPrimaryContainer">
+            <a href="https://accounts.google.com/login">
+              <div class="background1"></div>
+              <div class="text" style="color: aliceblue;">Continue with Google</div>
+            </a>
+          </div> -->
+          <!-- Link for Microsoft Teams login -->
+          <div class="button-primary1" id="buttonPrimaryContainer1">
+            <a href="https://teams.microsoft.com">
+              <div class="background1"></div>
+              <div class="text" style="color: aliceblue;">Continue with Microsoft Teams</div>
+            </a>
+          </div>
+        </div>
+        <div class="frame-parent">
+          <div class="divider-wrapper">
+            <img class="divider-icon" loading="lazy" alt="" src="./public/divider.svg" />
+          </div>
+          <div class="title-wrapper">
+            <div class="title">Student Id</div>
+          </div>
+          <div class="input">
+            <div class="input1"></div>
+            <input id="usernameInput" name="username" class="placeholder" placeholder="@student.qau.edu.pk"
+              type="text" />
+          </div>
+
+          <!-- Password -->
+          <div class="input">
+            <div class="input1"></div>
+            <input id="usernameInput" name="password" class="placeholder" placeholder="Password" type="password" required/>
+          </div>
+        <!-- Submit -->
+          <!-- Change the button type to submit -->
+          <button type="submit" class="button-primary2" id="buttonPrimaryContainer">
+            <div class="background1"></div>
+            <div class="text">Log in with Student ID</div>
+          </button>
+        </div>
+      </div>
+    </section>
+  </form> <!-- Close the form tag -->
+
+  <!-- <script src="modules.js"></script> -->
+</body>
+
+</html>
